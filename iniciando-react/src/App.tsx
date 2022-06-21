@@ -1,17 +1,17 @@
 import { useState } from "react"
 import { Conteudo } from "./components/Conteudo"
 import './App.css'
-
+import { AppRoutes } from "./Routes"
 
 function App() {
-                                      //TIPANDO
-  const [content, setContent] = useState<string[]>([ 
+  //TIPANDO
+  const [content, setContent] = useState<string[]>([
     'Conteudo 1',
     'Conteudo 2',
     'Conteudo 3'
   ])
 
-  const createContent = () =>{
+  const createContent = () => {
     setContent([...content, 'Conteudo 4'])
   }
 
@@ -29,8 +29,9 @@ function App() {
           padding: '6px 12px',
           color: '#FFF'
         }}
-        >Adicionar novo conteudo
+      >Adicionar novo conteudo
       </button>
+      <AppRoutes />
     </div>
   )
 }
