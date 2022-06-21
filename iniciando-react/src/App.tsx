@@ -1,6 +1,16 @@
+import { Conteudo } from "./components/Conteudo"
+
+
 function App() {
-  
-  return <h1>Hello World</h1>
+
+  return (
+
+    <div>
+      <Conteudo text='Conteudo novo 1' />
+      <Conteudo text='Conteudo novo 2'/>
+      <Conteudo text='Conteudo novo 3'/>
+    </div>
+  )
 }
 
 export default App
