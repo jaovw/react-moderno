@@ -21,7 +21,16 @@ function App() {
         return <Conteudo text={cont} />
       })}
 
-      <button onClick={createContent}>Adicionar novo conteudo</button>
+      <button // PODENDO ESTILIZAR DESSA FORMA TAMBÉM
+        onClick={createContent}
+        style={{
+          backgroundColor: '#8257e6',
+          border: 0,
+          padding: '6px 12px',
+          color: '#FFF'
+        }}
+        >Adicionar novo conteudo
+      </button>
     </div>
   )
 }
