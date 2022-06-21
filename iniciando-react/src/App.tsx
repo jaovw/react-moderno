@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { Conteudo } from "./components/Conteudo"
+import './App.css'
 
 
 function App() {
