@@ -11,7 +11,18 @@ Vídeo base: https://youtu.be/pDbcC-xSat4
   - npm install
   - npm dev
 
-## Conteudo a ser estudado
+## Tecnologias a serem estudadas
 
+### CSS in Js
+- styled components | Stitches
+- Radix - componentes primitivos
 
+### DataFetching 
+- React Query
+- GraphQL
 
+### State Manegement
+
+### Testing 
+
+- Cypress
